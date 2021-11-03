@@ -1,4 +1,4 @@
-Please visit [DispatcherWaiter](https://eagleboost.com/2021/11/02/Interactions-between-the-View-and-ViewModel/) for more details
+Please visit [Interactions between the View and ViewModel](https://eagleboost.com/2021/11/02/Interactions-between-the-View-and-ViewModel/) for more details
 
 Sample test result:
 
