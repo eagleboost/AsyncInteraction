@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncInteractionApp", "AsyncInteractionApp\AsyncInteractionApp.csproj", "{FDFF3629-57CD-4375-85FC-4FB39323A054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncInteraction", "AsyncInteraction\AsyncInteraction.csproj", "{53EC3C07-FBB8-4E64-8A68-F3D9A83BC7DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFF3629-57CD-4375-85FC-4FB39323A054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFF3629-57CD-4375-85FC-4FB39323A054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFF3629-57CD-4375-85FC-4FB39323A054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFF3629-57CD-4375-85FC-4FB39323A054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EC3C07-FBB8-4E64-8A68-F3D9A83BC7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EC3C07-FBB8-4E64-8A68-F3D9A83BC7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EC3C07-FBB8-4E64-8A68-F3D9A83BC7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EC3C07-FBB8-4E64-8A68-F3D9A83BC7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="AsyncInteraction.Result.cs">
+      <DependentUpon>AsyncInteraction.cs</DependentUpon>
+    </Compile>
+    <Compile Update="AsyncInteraction.Contracts.cs">
+      <DependentUpon>AsyncInteraction.cs</DependentUpon>
+    </Compile>
+    <Compile Update="AsyncInteraction.Base.cs">
+      <DependentUpon>AsyncInteraction.cs</DependentUpon>
+    </Compile>
+    <Compile Update="AsyncInteraction.Args.cs">
+      <DependentUpon>AsyncInteraction.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Tasks\DispatchTaskAwaiterHelper.cs">
+      <DependentUpon>DispatchTaskAwaiter.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Tasks\DispatchTaskAwaiter.Generic.cs">
+      <DependentUpon>DispatchTaskAwaiter.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

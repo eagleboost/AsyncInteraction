@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AsyncInteraction\AsyncInteraction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Login\LoginViewModel.Contracts.cs">
+      <DependentUpon>LoginViewModel.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>
